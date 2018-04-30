@@ -1,7 +1,7 @@
-# Alternative Deep Neural Networks for sequences
+# Свёрточные сети как альтернативные нейросетевые модели для работы с последовательностями
 
-Main papers:
-* [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-* [WaveNet: A Generative Model for Raw Audio](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
-* [Convolutional Sequence to Sequence Learning](https://arxiv.org/abs/1705.03122),
-* [Non-Autoregressive Neural Machine Translation ](https://openreview.net/forum?id=B1l8BtlCb)
+Сравнение свёрточных нейросетей для работы с последовательным данным на примере моделей [TCN](https://arxiv.org/pdf/1803.01271.pdf) и [GatedCNN](https://arxiv.org/pdf/1612.08083.pdf) и с классическим подходом в виде LSTM.
+
+Рассматривается задача word language modeling на датасете Penn Tree Bank.
+
+*Версия PyTorch 0.3*
